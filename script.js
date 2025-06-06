@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             stars: ["أحمد حسن", "سارة محمد"],
             category: "أكشن",
             year: 2023,
-            embed_url: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+            embed_url: "https://player.vimeo.com/video/1091299832"
         },
     ];
 
