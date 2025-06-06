@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مشغل فيديو خارجي</title>
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .video-container {
+      width: 90%;
+      max-width: 960px;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video
+      id="my-player"
+      class="video-js vjs-big-play-centered"
+      controls
+      preload="auto"
+      poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+      data-setup='{}'
+    >
+      <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+      <!-- لو عندك m3u8 -->
+      <!-- <source src="https://example.com/stream.m3u8" type="application/x-mpegURL" /> -->
+      عذراً، متصفحك لا يدعم تشغيل الفيديو.
+    </video>
+  </div>
+
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+</body>
+</html>

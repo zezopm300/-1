@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>شاهد بلس</title>
+    <meta name="description" content="شاهد أحدث الأفلام العربية والعالمية أونلاين مع أفضل جودة ومشغل فيديو متوافق مع جميع الأجهزة." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+
+
+
+
+
+
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="#" data-action="home">شاهد بلس</a></h1>
+            <div id="mobile-menu" class="menu-toggle" aria-label="قائمة التنقل">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+            <nav class="main-nav" role="navigation" aria-label="القائمة الرئيسية">
+                <ul>
+                    <li><a href="#" data-action="home" class="nav-link active">الرئيسية <i class="fas fa-home"></i></a></li>
+                    <li><a href="#" class="nav-link">الأفلام <i class="fas fa-film"></i></a></li>
+                    <li><a href="#" class="nav-link">تواصل معنا <i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="hero-section" class="hero-section" aria-label="الفيلم المميز">
+            <div class="hero-content">
+                <h2>جارٍ تحميل الفيلم المميز...</h2>
+                <p>الرجاء الانتظار.</p>
+                <a href="#" class="btn" id="hero-btn">شاهد الآن <i class="fas fa-play"></i></a>
+            </div>
+        </section>
+
+        <section id="movies-list" aria-label="قائمة الأفلام">
+            <h2 class="section-title">أحدث الأفلام</h2>
+            <div class="movie-grid" role="list"></div>
+        </section>
+
+        <section id="movie-details" class="movie-details-section" aria-label="تفاصيل الفيلم" style="display:none;">
+            <button id="back-to-home" class="btn btn-back" aria-label="العودة للرئيسية"><i class="fas fa-arrow-left"></i> العودة للرئيسية</button>
+            <h2 class="movie-title"></h2>
+            <div class="movie-player-container" tabindex="0" aria-label="مشغل الفيديو"></div>
+            <p class="movie-description"></p>
+            <p><strong>المخرج:</strong> <span class="director"></span></p>
+            <p><strong>النجوم:</strong> <span class="stars"></span></p>
+            <p><strong>التصنيف:</strong> <span class="category"></span></p>
+            <p><strong>سنة الإصدار:</strong> <span class="year"></span></p>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="container footer-content">
+            <p>حقوق النشر &copy; 2025 . جميع الحقوق محفوظة.</p>
+            <div class="social-links" aria-label="روابط التواصل الاجتماعي">
+                <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
